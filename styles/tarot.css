@@ -90,5 +90,22 @@ img {
   font-size: 30px;
   font-weight: bold;
   
+}
+
+#contactInfo1{
+  font-size: 42px;
+  font-weight: bold;
+  position:absolute;
+  top: 1362px;
+  left: 794px;
+
+}
+
+#contactInfo2{
+  font-size: 42px;
+  font-weight: bold;
+  position:absolute;
+  top: 1440px;
+  left: 794px;
 
 }
