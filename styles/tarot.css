@@ -93,6 +93,7 @@ img {
 }
 
 #contactInfo1{
+  white-space:nowrap;
   font-size: 40px;
   font-weight: bold;
   position:absolute;
@@ -102,6 +103,7 @@ img {
 }
 
 #contactInfo2{
+  white-space:nowrap;
   font-size: 40px;
   font-weight: bold;
   position:absolute;
