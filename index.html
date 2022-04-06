@@ -4,29 +4,49 @@
 	<title>JavaScript Tarot Deck</title>
 	<link href="styles/tarot.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	</head>
 
-	<body>
-		<div id="container">
-			<h1>心靈傻瓜卡：你的傻瓜成分測驗</h1>
-			
-			<p>請輸入你的出生年/月/日(西元年，例：1992)：
-				<input type="number" id='birthYear'>
-				年/<input type="number" id='birthMonth'>
-				月/<input type="number" id='birthDay'>日
-			</p>
-			<div  class= "display" id="display_40">
+			<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+				<div style="background:url('images/work_area.jpg') no-repeat;width:1080px;height:1704px">
+				<!-- Save for Web Slices (頁面切版.psd) -->
+			<table id="___01" width="1081" height="1705" border="0" cellpadding="0" cellspacing="0">
 				
-			</div>
-			<div class= "display" id="display_30">
-			</div><br><br>
-			<div class= "display" id="display_15">
-			</div><br><br>
-			<div class= "display" id="display_10">
-			</div><br><br>
-			<div class= "display" id="display_5">
-			</div><br><br>
-			<button id="draw">Draw</button>
+						<div class="input_text">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 請輸入你的出生年/月/日(西元年，例：1992)：<br>
+							
+							<div id="wrapper">
+								<input type="number" id='birthYear' style="width:120px; height:30px;" placeholder="請輸入西元年" >
+							</div>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+							年/<div id="wrapper_Month">
+								<input type="number" id='birthMonth' style="width:120px; height:30px;">
+							</div>
+
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月/
+							
+							<div id="wrapper_Day">
+								<input type="number" id='birthDay' style="width:120px; height:30px;">
+							</div>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日
+							<div>
+								<button id="draw">你的傻瓜成分分析</button>	
+								
+							</div>
+											
+						</div>
+				
+						<div  id="display_cardName"></div>	
+						<div  id="display_cardPic"></div>	
+						<div  id="display_cardDescription"></div>	
+						
+					
+					
+				</div>
+			</table>
+		
+			
+		
 		</div>
 		<script
 		src="scripts/tarot.js"></script>

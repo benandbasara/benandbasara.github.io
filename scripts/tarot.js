@@ -93,11 +93,21 @@ var deck = [
 		var fifthCard = deck[numCombination[sum+4]-1];
 
 
-		document.getElementById("display_40").innerHTML ='<h2>你身上佔最多的傻瓜成分是：</h2><h2>' + 
-		currentCard.name + '</h2>' +  '<img src="images/' + 
+		document.getElementById("display_cardName").innerHTML = 
+		'<h2>' + currentCard.name + '</h2>' ;
+		
+		document.getElementById("display_cardPic").innerHTML = 
+		'<img src="images/' + currentCard.image + '.gif">';
+
+		document.getElementById("display_cardDescription").innerHTML = 
+        '<p>' + currentCard.description + '</p>';
+
+		/*
+		+  '<img src="images/' + 
 		currentCard.image + '.gif"><p> '+ 
 		currentCard.description + '</p>';
-
+		*/
+/*
 		document.getElementById("display_30").innerHTML =		'<h2>第二多的成分是：</h2><h2>' + 
 		secondCard.name + '</h2>' +  '<img src="images/' + 
 		secondCard.image + '.gif"><p> '+ 
@@ -117,6 +127,6 @@ var deck = [
 		fifthCard.name + '</h2>' +  '<img src="images/' + 
 		fifthCard.image + '.gif"><p> '+ 
 		fifthCard.description + '</p>';
-
+*/
 		};
 	
