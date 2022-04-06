@@ -101,7 +101,10 @@ var deck = [
 
 		document.getElementById("display_cardDescription").innerHTML = 
         '<p>' + currentCard.description + '</p>';
-
+		
+                document.getElementById("birthYear").value = "---";
+		document.getElementById("birthMonth").value = "---";
+		document.getElementById("birthDay").value = "---";
 		/*
 		+  '<img src="images/' + 
 		currentCard.image + '.gif"><p> '+ 
