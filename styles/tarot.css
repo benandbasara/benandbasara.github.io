@@ -121,8 +121,8 @@ img {
   left: 20px;
   border-width: 0px ; 
   width: 350px; 
-  height: 300px ; 
-  padding: 5px; 
+  height: 199px ; 
+  padding: 10px; 
 
 text-align:justify; 
 
@@ -135,7 +135,7 @@ text-align:justify;
   font-size: 25px;
   font-weight: bold;
   position:absolute;
-  top: 1518px;
+  top: 1459px;
   left: 20px;
 	
 }
@@ -145,7 +145,7 @@ text-align:justify;
   font-size: 25px;
   font-weight: bold;
   position:absolute;
-  top: 1596px;
+  top: 1524px;
   left: 20px;
 	
 }
