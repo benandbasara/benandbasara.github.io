@@ -120,7 +120,7 @@ img {
   top: 1362px;
   left: 20px;
   border-width: 0px ; 
-  width: 300px; 
+  width: 350px; 
   height: 70px ; 
   padding: 5px; 
   text-align: center; 
@@ -140,7 +140,7 @@ img {
 
 #contactInfo5{
   white-space:nowrap;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   position:absolute;
   top: 1596px;
