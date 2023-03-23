@@ -114,23 +114,23 @@ img {
 
 #contactInfo3{
   white-space:pre-wrap;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   position:absolute;
   top: 1362px;
   left: 20px;
   border-width: 0px ; 
   width: 350px; 
-  height: 70px ; 
+  height: 500px ; 
   padding: 5px; 
   text-align: center; 
-  background-color: rgb(255, 255, 255);border-radius: 4px;"
+  background-color: rgb(255, 255, 255);border-radius: 10px;"
 	
 }
 
 #contactInfo4{
   white-space:nowrap;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   position:absolute;
   top: 1518px;
@@ -140,7 +140,7 @@ img {
 
 #contactInfo5{
   white-space:nowrap;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   position:absolute;
   top: 1596px;
