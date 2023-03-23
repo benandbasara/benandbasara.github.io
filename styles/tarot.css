@@ -109,5 +109,35 @@ img {
   position:absolute;
   top: 1440px;
   left: 794px;
+	
+}
 
+#contactInfo3{
+  white-space:nowrap;
+  font-size: 25px;
+  font-weight: bold;
+  position:absolute;
+  top: 1518px;
+  left: 794px;
+	
+}
+
+#contactInfo4{
+  white-space:nowrap;
+  font-size: 40px;
+  font-weight: bold;
+  position:absolute;
+  top: 1596px;
+  left: 794px;
+	
+}
+
+#contactInfo5{
+  white-space:nowrap;
+  font-size: 40px;
+  font-weight: bold;
+  position:absolute;
+  top: 1674px;
+  left: 794px;
+	
 }
